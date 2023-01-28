@@ -3,7 +3,7 @@ import {userProfile} from './userProfile.js';
 
 import './App.css';
 
-import profilePicture  from './images/profilePicture.png';
+import profilePicture  from './images/profilePicture.jpeg';
 import FacebookIcon  from './images/Facebook Icon.svg';
 import gitHubIcon from './images/GitHub Icon.svg';
 import instagramIcon from './images/Instagram Icon.svg';
