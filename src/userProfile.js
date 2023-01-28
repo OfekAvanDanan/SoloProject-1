@@ -1,5 +1,5 @@
 export const userProfile = {
-    name: "Laura Smith",
+    name: "Laura Smith 1242534",
     proffesion: "Frontend Developer",
     profilePicturePath:  ".images/profilePicture.png",
     websiteAdress: "laurasmith.website",
