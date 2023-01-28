@@ -3,20 +3,20 @@ import {userProfile} from './userProfile.js';
 
 import './App.css';
 
-import profilePicture  from './images/profilePicture.jpeg';
 import FacebookIcon  from './images/Facebook Icon.svg';
 import gitHubIcon from './images/GitHub Icon.svg';
 import instagramIcon from './images/Instagram Icon.svg';
 import mailIcon from './images/Mail.svg';
 import twitterIcon from './images/Twitter Icon.svg';
-import LinkedinIcon from './images/Linked in.svg';
+import LinkedinIcon from './images/Linked in.svg'; 
 
+const profilePhoto = userProfile.profilePicturePath;
 
 function App() {
   return (
     <div className="App">
       <div className="Window">
-        <img src={profilePicture} className="profile-photo" alt="profile"/>
+        <img src={require(`${profilePhoto}`)}  className="profile-photo" alt="profile"/>
         <h1>{userProfile.name}</h1>
         <h3>{userProfile.proffesion}</h3>
         <h4>{userProfile.websiteAdress}</h4>
